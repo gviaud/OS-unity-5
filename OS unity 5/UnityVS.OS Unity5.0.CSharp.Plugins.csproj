@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E1C1A76-E20C-E831-232B-BA0C05D67CF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;UNITY_IPHONE;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;UNITY_IPHONE_API;UNITY_IOS;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;UNITY_IPHONE;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;UNITY_IPHONE_API;UNITY_IOS;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="P31RestKit">
+      <HintPath>Assets\Plugins\P31RestKit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\Etcetera\EtceteraBinding.cs" />
+    <Compile Include="Assets\Plugins\Etcetera\EtceteraManager.cs" />
+    <Compile Include="Assets\Plugins\Etcetera\demo\CubeRotator.cs" />
+    <Compile Include="Assets\Plugins\Etcetera\demo\EtceteraEventListener.cs" />
+    <Compile Include="Assets\Plugins\Etcetera\demo\EtceteraGUIManager.cs" />
+    <Compile Include="Assets\Plugins\Etcetera\demo\EtceteraGUIManagerThree.cs" />
+    <Compile Include="Assets\Plugins\Etcetera\demo\EtceteraGUIManagerTwo.cs" />
+    <Compile Include="Assets\Plugins\NativePanels.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\EdgeDetectEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+    <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+    <None Include="Assets\Datas\Fonts\CONTRIBUTING.txt" />
+    <None Include="Assets\Datas\Fonts\copyright.txt" />
+    <None Include="Assets\Datas\Fonts\FONTLOG.txt" />
+    <None Include="Assets\Datas\Fonts\LICENCE.txt" />
+    <None Include="Assets\Datas\Fonts\LICENCE-FAQ.txt" />
+    <None Include="Assets\Datas\Fonts\README.txt" />
+    <None Include="Assets\Datas\Fonts\TRADEMARKS.txt" />
+    <None Include="Assets\Datas\highlight\Highlight.shader" />
+    <None Include="Assets\Datas\Materials\matteshadow.shader" />
+    <None Include="Assets\Datas\Materials\TransparentShadowCaster.shader" />
+    <None Include="Assets\Datas\shader\$glassreflective_110.shader" />
+    <None Include="Assets\Datas\shader\Add.shader" />
+    <None Include="Assets\Datas\shader\alphaSelfIlum.shader" />
+    <None Include="Assets\Datas\shader\DevScreenShader.shader" />
+    <None Include="Assets\Datas\shader\DevScreenShaderBackFace.shader" />
+    <None Include="Assets\Datas\shader\eraserV2\eraserV2_copyCam.shader" />
+    <None Include="Assets\Datas\shader\eraserV2\eraserV2_eraser.shader" />
+    <None Include="Assets\Datas\shader\inverseNormalDiffuse.shader" />
+    <None Include="Assets\Datas\shader\lightOnly.shader" />
+    <None Include="Assets\Datas\shader\matteshadow_159.shader" />
+    <None Include="Assets\Datas\shader\Projector Light.shader" />
+    <None Include="Assets\Datas\shader\projectorShadow.shader" />
+    <None Include="Assets\Datas\shader\Reflection_2.0.shader" />
+    <None Include="Assets\Datas\shader\testShader\FlagWave-Advanced.shader" />
+    <None Include="Assets\Datas\shader\testShader\FlagWaveCG.cginc" />
+    <None Include="Assets\Datas\shader\testShader\Transparent-Advanced-FullShadows.shader" />
+    <None Include="Assets\Resources\config\config.txt" />
+    <None Include="Assets\Resources\gui\help\ctxHelp\xml\ctxHlp_panels.xml" />
+    <None Include="Assets\Resources\Languages\strings_de.txt" />
+    <None Include="Assets\Resources\Languages\strings_en.txt" />
+    <None Include="Assets\Resources\Languages\strings_fr.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_1.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_10.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_11.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_12.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_2.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_3.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_4.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_5.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_6.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_7.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_8.txt" />
+    <None Include="Assets\Resources\phototheque\configs\samplepic_9.txt" />
+    <None Include="Assets\Resources\shaders\configs\plage\01p.txt" />
+    <None Include="Assets\Resources\shaders\Custom_2Sided.shader" />
+    <None Include="Assets\Resources\shaders\Custom_2SidedSelfIllum.shader" />
+    <None Include="Assets\Resources\shaders\Custom_2SidedSelfIllumTransparent.shader" />
+    <None Include="Assets\Resources\shaders\Custom_2SidedTreeLeavesFast.shader" />
+    <None Include="Assets\Resources\shaders\Custom_2SidedTreeLeavesFastBump.shader" />
+    <None Include="Assets\Resources\shaders\Custom_2SidedTreeLeavesFastNotViewDependency.shader" />
+    <None Include="Assets\Resources\shaders\Custom_alpa2Sided.shader" />
+    <None Include="Assets\Resources\shaders\Custom_alpha2SidedSpec.shader" />
+    <None Include="Assets\Resources\shaders\Custom_alphaColor.shader" />
+    <None Include="Assets\Resources\shaders\Custom_alphaMap.shader" />
+    <None Include="Assets\Resources\shaders\Custom_alphaMapColor.shader" />
+    <None Include="Assets\Resources\shaders\Custom_alphaSelfIlumHair.shader" />
+    <None Include="Assets\Resources\shaders\Custom_Bumped Shadow Channel 2.shader" />
+    <None Include="Assets\Resources\shaders\Custom_Bumped Shadow Specular.shader" />
+    <None Include="Assets\Resources\shaders\Custom_Bumped Shadow SpecularColor.shader" />
+    <None Include="Assets\Resources\shaders\Custom_Bumped Shadow.shader" />
+    <None Include="Assets\Resources\shaders\Custom_colorAlphaSelfIlum.shader" />
+    <None Include="Assets\Resources\shaders\Custom_FX_Water p Infinity.shader" />
+    <None Include="Assets\Resources\shaders\Custom_FX_Water p.shader" />
+    <None Include="Assets\Resources\shaders\Custom_inverseNormalDiffuse.shader" />
+    <None Include="Assets\Resources\shaders\Custom_Multiply.shader" />
+    <None Include="Assets\Resources\shaders\Custom_RotateUVs.shader" />
+    <None Include="Assets\Resources\shaders\Custom_ScreenShaderTransparent.shader" />
+    <None Include="Assets\Resources\shaders\Custom_Shadow Specular Bump.shader" />
+    <None Include="Assets\Resources\shaders\Custom_Shadow Specular.shader" />
+    <None Include="Assets\Resources\shaders\Custom_Shadow.shader" />
+    <None Include="Assets\Resources\shaders\Custom_ShadowChannel1.shader" />
+    <None Include="Assets\Resources\shaders\Custom_TransparentReflective.shader" />
+    <None Include="Assets\Resources\shaders\lightOnly.shader" />
+    <None Include="Assets\Resources\shaders\matteshadow_159.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_BurriedHidden_Diffuse.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_DispNormRimSpec.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_Mask.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_MaskInverse.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_NormRimSpec.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_projectorLight.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_spaHDWater_iOS.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_spaHDWater_iOS_disp.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_spaLedGlow.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_Stained BumpDistort.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_StandardObjet.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_Transparent-FullShadows.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_TransparentShadow.shader" />
+    <None Include="Assets\Resources\shaders\Pointcube_VisibleBehindObjects.shader" />
+    <None Include="Assets\Resources\shaders\Projector Light.shader" />
+    <None Include="Assets\Resources\shaders\projectorShadow.shader" />
+    <None Include="Assets\Resources\shaders\Reflection_2.0.shader" />
+    <None Include="Assets\Resources\shaders\Shadow Specular Bump.shader" />
+    <None Include="Assets\Resources\shaders\Shadow Specular.shader" />
+    <None Include="Assets\Resources\shaders\Transparent-Advanced-FullShadows.shader" />
+    <None Include="Assets\Resources\shaders\Tree.cginc" />
+    <None Include="Assets\Resources\shaders\TreeCustom.cginc" />
+    <None Include="Assets\Resources\shaders\TreeVertexLit.cginc" />
+    <None Include="Assets\Scripts\PoolDesigner\readme.txt" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Plugins\P31RestKit.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

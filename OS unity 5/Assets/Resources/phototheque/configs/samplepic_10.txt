@@ -1,0 +1,11 @@
+Inclinaison=-5.95
+Echelle=1.81
+Hauteur=0.0
+Rotation=48.0
+Perspective=74.06
+Roulis=0.0
+Heure=74
+Orientation=97.75
+Luminosite=0.25
+Nuit=0
+RotationSpecLightAprem=0

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\activation\Activation.cs">
+    <Files>
+      <File FileName="D:\Libraries 4.5\LibOS3DPool\Assets\Editor\exportresource_203.js" Line="10" Column="1" />
+      <File FileName="Assets\Scripts\HelpPanel.cs" Line="177" Column="1" />
+      <File FileName="Assets\Scripts\fromLab\GUI Tesv\GUIDialogBox.cs" Line="21" Column="2" />
+      <File FileName="Assets\Resources\Languages\strings_fr.txt" Line="185" Column="37" />
+      <File FileName="Assets\Scripts\activation\Activation.cs" Line="376" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

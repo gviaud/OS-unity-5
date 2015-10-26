@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: shadowScreenMat
+  m_Shader: {fileID: 4800000, guid: bc3ca4c060198b645b0f618cd0520c7e, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: e0de37f2d2e531140854608b0246bb7e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaTex
+        second:
+          m_Texture: {fileID: 2800000, guid: e0de37f2d2e531140854608b0246bb7e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FrontTex
+        second:
+          m_Texture: {fileID: 2800000, guid: d6b94aa0b6395a44bb42c0f2ae7d4b01, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 185f16c064f25d84199820759ec7fe5f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LeftTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 185f16c064f25d84199820759ec7fe5f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RightTex
+        second:
+          m_Texture: {fileID: 2800000, guid: e2d5cd1bae3ca75419c7c2ee37545db6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _UpTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6a7fb3ef930484647a9f00f5e716bfaa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DownTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6526cc19ec3d4874e9f76f8d7c61dca0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _WaveSpeed
+        second: 50
+      data:
+        first:
+          name: _WaveStrength
+        second: 1
+      data:
+        first:
+          name: _RimPower
+        second: .349999994
+      data:
+        first:
+          name: _RimAlphaPower
+        second: .150000006
+      data:
+        first:
+          name: _Blend
+        second: .409999996
+      data:
+        first:
+          name: _GlobAlpha
+        second: .370000005
+      data:
+        first:
+          name: _MinAlpha
+        second: .280000001
+      data:
+        first:
+          name: _Gloss
+        second: .600000024
+      data:
+        first:
+          name: _Amount
+        second: .200000003
+      data:
+        first:
+          name: _MinCoef
+        second: 4
+      data:
+        first:
+          name: _TranslucencyViewDependency
+        second: 0
+      data:
+        first:
+          name: _ShadowStrength
+        second: .134328365
+      data:
+        first:
+          name: _SquashAmount
+        second: -14.2799997
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .392904878, g: .522902191, b: .634328365, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 0}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .119999997, g: .529999971, b: 1, a: 1}
+      data:
+        first:
+          name: _SelfIllu
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect00
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect10
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect01
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect11
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect02
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect12
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect03
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect13
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect04
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect14
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect05
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect15
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect06
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect16
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect07
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DispVect17
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _TranslucencyColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Scale
+        second: {r: 1, g: 1, b: 1, a: 1}

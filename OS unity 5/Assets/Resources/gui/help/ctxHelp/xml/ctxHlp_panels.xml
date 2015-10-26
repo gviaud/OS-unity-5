@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<root>
+<panels>
+	<panel id='ctx1_ppAdd'>
+		<bgImg filename='FIX_HLP_PREMIER_PLAN_ADD'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Mettre au premier plan</text>
+				<text lang='en'>Foreground selection</text>
+			</label>
+			<label x='20' y='160' w='180' h='30' align='right-bottom'>
+				<text lang='fr'>Avant</text>
+				<text lang='en'>Before</text>
+			</label>
+			<label x='430' y='160' w='180' h='30' align='right-bottom'>
+				<text lang='fr'>Après</text>
+				<text lang='en'>After</text>
+			</label>
+			<label x='10' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Tracer</text>
+				<text lang='en'>Draw</text>
+			</label>
+			<label x='215' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Zoomer</text>
+				<text lang='en'>Zoom</text>
+			</label>
+			<label x='420' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Fermer</text>
+				<text lang='en'>Close</text>
+			</label>
+ 			<label x='10' y='470' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_objAdd'>
+		<bgImg filename='FIX_HLP_AJOUT_OBJ'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Manipulation d'objet</text>
+				<text lang='en'>3D object interaction</text>
+			</label>
+			<label x='10' y='50' w='300' h='50' align='center'>
+				<text lang='fr'>Sélectionner</text>
+				<text lang='en'>Select</text>
+			</label>
+			<label x='320' y='50' w='300' h='50' align='center'>
+				<text lang='fr'>Déplacer*</text>
+				<text lang='en'>Move*</text>
+			</label>
+			<label x='10' y='337' w='610' h='50' align='center'>
+				<text lang='fr'>Tourner*</text>
+				<text lang='en'>Rotate*</text>
+			</label>
+			<label x='10' y='625' w='610' h='50' align='center'>
+				<text lang='fr'>* Ces fonctions ne nécessitent pas que le curseur soit placé sur l'objet</text>
+				<text lang='en'>* These features do not require the cursor to be located over the object</text>
+			</label>
+ 			<label x='10' y='675' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_scale_fr' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_ECHELLE_fr'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Échelle</text>
+				<text lang='en'>Scale</text>
+			</label>
+			<label x='10' y='304' w='400' h='200' align='left'>
+				<text lang='fr'>Ajuster la taille de l'ensemble des objets</text>
+				<text lang='en'>Adjust objects scale to match your picture</text>
+			</label>
+ 			<label x='10' y='513' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_scale_en' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_ECHELLE_en'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Échelle</text>
+				<text lang='en'>Scale</text>
+			</label>
+			<label x='10' y='304' w='400' h='200' align='left'>
+				<text lang='fr'>Ajuster la taille de l'ensemble des objets</text>
+				<text lang='en'>Adjust objects scale to match your picture</text>
+			</label>
+ 			<label x='10' y='513' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_height' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_HAUTEUR'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Hauteur</text>
+				<text lang='en'>Ground 0</text>
+			</label>
+			<label x='10' y='304' w='400' h='200' align='left'>
+				<text lang='fr'>Ajuster les objets au niveau du sol</text>
+				<text lang='en'>Adjust ground zero to camera height</text>
+			</label>
+			<label x='10' y='513' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_tilt' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_INCLINAISON'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Inclinaison</text>
+				<text lang='en'>Tilt</text>
+			</label>
+			<label x='10' y='304' w='400' h='200' align='left'>
+				<text lang='fr'>Incliner la grille pour poser les avatars sur le sol de la photo</text>
+				<text lang='en'>Tilt the virtual floor until the 3D objects correctly hit the ground</text>
+			</label>
+			<label x='10' y='513' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_texAdd'>
+		<bgImg filename='FIX_HLP_MATIERE_ADD'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Ajout matière</text>
+				<text lang='en'>Add material</text>
+			</label>
+			<label x='20' y='160' w='180' h='30' align='right-bottom'>
+				<text lang='fr'>Avant</text>
+				<text lang='en'>Before</text>
+			</label>
+			<label x='430' y='160' w='180' h='30' align='right-bottom'>
+				<text lang='fr'>Après</text>
+				<text lang='en'>After</text>
+			</label>
+			<label x='10' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Tracer</text>
+				<text lang='en'>Draw</text>
+			</label>
+			<label x='215' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Zoomer</text>
+				<text lang='en'>Zoom</text>
+			</label>
+			<label x='420' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Fermer</text>
+				<text lang='en'>Close</text>
+			</label>
+ 			<label x='10' y='470' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_texSub'>
+		<bgImg filename='FIX_HLP_MATIERE_SUB'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Retirer matière</text>
+				<text lang='en'>Material cancel</text>
+			</label>
+			<label x='20' y='160' w='180' h='30' align='right-bottom'>
+				<text lang='fr'>Avant</text>
+				<text lang='en'>Before</text>
+			</label>
+			<label x='430' y='160' w='180' h='30' align='right-bottom'>
+				<text lang='fr'>Après</text>
+				<text lang='en'>After</text>
+			</label>
+			<label x='10' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Tracer</text>
+				<text lang='en'>Draw</text>
+			</label>
+			<label x='215' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Zoomer</text>
+				<text lang='en'>Zoom</text>
+			</label>
+			<label x='420' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Fermer</text>
+				<text lang='en'>Close</text>
+			</label>
+ 			<label x='10' y='470' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_persp' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_PERSPECTIVE'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Perspective</text>
+				<text lang='en'>Perspective</text>
+			</label>
+			<label x='10' y='304' w='400' h='200' align='left'>
+				<text lang='fr'>Aligner la grille aux éléments rectilignes présents sur la photo</text>
+				<text lang='en'>Adjust the perspective to match the alignement of the 3D grid to lines on your picture</text>
+			</label>
+ 			<label x='10' y='513' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_ppSub'>
+		<bgImg filename='FIX_HLP_PREMIER_PLAN_SUB'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Remettre au second plan</text>
+				<text lang='en'>Foreground cancel</text>
+			</label>
+			<label x='20' y='160' w='180' h='30' align='right-bottom'>
+				<text lang='fr'>Avant</text>
+				<text lang='en'>Before</text>
+			</label>
+			<label x='430' y='160' w='180' h='30' align='right-bottom'>
+				<text lang='fr'>Après</text>
+				<text lang='en'>After</text>
+			</label>
+			<label x='10' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Tracer</text>
+				<text lang='en'>Draw</text>
+			</label>
+			<label x='215' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Zoomer</text>
+				<text lang='en'>Zoom</text>
+			</label>
+			<label x='420' y='200' w='200' h='70' align='center'>
+				<text lang='fr'>Fermer</text>
+				<text lang='en'>Close</text>
+			</label>
+ 			<label x='10' y='470' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_rota' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_ROTATION'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Rotation</text>
+				<text lang='en'>Rotation</text>
+			</label>
+			<label x='10' y='304' w='400' h='200' align='left'>
+				<text lang='fr'>Tourner la grille pour vous assurer que l'inclinaison et la perspective soient bien ajustées</text>
+				<text lang='en'>Align the virtual grid to match some of the real strong lines in your picture</text>
+			</label>
+ 			<label x='10' y='513' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_roll' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_ROULIS'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Roulis</text>
+				<text lang='en'>Roll</text>
+			</label>
+			<label x='10' y='304' w='400' h='200' align='left'>
+				<text lang='fr'>Faire pencher la grille pour la faire correspondre à la photo</text>
+				<text lang='en'>Adjust the roll to compensate a non-horizontal picture</text>
+			</label>
+ 			<label x='10' y='513' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_multiSel'>
+		<bgImg filename='FIX_HLP_SELECTMULTI'/> <!-- Filename sans suffixe -->
+		<labels>
+			<label x='10' y='0' w='570' h='50' align='left'>
+				<text lang='fr'>Sélection multiple</text>
+				<text lang='en'>Multiselection</text>
+			</label>
+			<label x='10' y='304' w='400' h='200' align='left'>
+				<text lang='fr'>Sélectionner plusieurs objets, puis déplacer ou orienter la sélection</text>
+				<text lang='en'>Select objects, move and rotate them all</text>
+			</label>
+ 			<label x='10' y='513' w='610' h='40' align='footer'>
+				<text lang='fr'>Vous pouvez désactiver les pop-up d'aide via le menu d'accueil</text>
+				<text lang='en'>You can disable pop-up help from home menu</text>
+			</label>
+		</labels>
+	</panel>
+	<panel id='ctx1_atmos' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_ADJUST_SETTING'/> <!-- Filename sans suffixe -->
+		<labels>
+		</labels>
+	</panel>
+	<panel id='ctx1_upper_fr' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_UPPERMENU_fr'/> <!-- Filename sans suffixe -->
+		<labels>
+		</labels>
+	</panel>
+	<panel id='ctx1_upper_en' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_UPPERMENU_en'/> <!-- Filename sans suffixe -->
+		<labels>
+		</labels>
+	</panel>
+	<panel id='ctx1_manip_plane' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_MANIP_PLAN'/> <!-- Filename sans suffixe -->
+		<labels>
+		</labels>
+	</panel>
+	<panel id='ctx1_manip_objet' fadeOnScroll='true'>
+		<bgImg filename='FIX_HLP_MANIP_OBJET'/> <!-- Filename sans suffixe -->
+		<labels>
+		</labels>
+	</panel>
+</panels>
+<defaultValues>
+	<startDelay>3</startDelay>
+	<stdDelay>2</stdDelay>
+	<longDelay>3</longDelay>
+</defaultValues>
+<suffixes>
+	<suffix inputType='mouse'>_PC</suffix>
+	<suffix inputType='touch'>_TCH</suffix>
+</suffixes>
+</root>

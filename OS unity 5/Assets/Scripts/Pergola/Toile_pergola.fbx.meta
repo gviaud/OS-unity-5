@@ -1,0 +1,88 @@
+fileFormatVersion: 2
+guid: ab332c0ed4d7242a7890eab6d8ddddc0
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 2
+    100002: 4
+    100004: skinned
+    100006: //RootNode
+    100008: 5
+    100010: 3
+    100012: 1
+    400000: 2
+    400002: 4
+    400004: skinned
+    400006: //RootNode
+    400008: 5
+    400010: 3
+    400012: 1
+    2300000: 2
+    2300002: 4
+    2300004: 5
+    2300006: 3
+    2300008: 1
+    3300000: 2
+    3300002: 4
+    3300004: 5
+    3300006: 3
+    3300008: 1
+    4300000: 1
+    4300002: 2
+    4300004: 3
+    4300006: 4
+    4300008: 5
+    4300010: skinned
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: skinned
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

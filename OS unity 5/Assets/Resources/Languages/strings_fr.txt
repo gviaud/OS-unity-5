@@ -1,0 +1,552 @@
+﻿##Premiere ligne necessaire
+## A propos
+def : Configurateur d'Espaces en 3D
+
+## Activation
+Activation.Authentification : Authentification
+Activation.Identifiant : Identifiant
+Activation.password : Mot de passe
+Activation.connect : Se connecter
+Activation.wait : Patientez, s'il vous plait... 
+Activation.back : Retour
+Activation.loading : Chargement...
+Activation.try : Essayer gratuitement
+
+## GUI Start
+GUIStart.Title : Accueil
+GUIStart.loading : Chargement...
+GUIStart.Dossiers : Conception
+GUIStart.TakePicture : Nouveau
+GUIStart.LoadPicture : Charger
+GUIStart.ExamplePicture : Photothèque
+GUIStart.edition : EDITION
+GUIStart.UpdateDispo : Mise à jour
+GUIStart.Exit: Quitter
+GUIStart.ChangeLanguage : ONESHOT3D va redémarrer
+GUIStart.NewProject : Photo
+GUIStart.Activate : Activer
+GUIStart.Deactivate : Desactiver
+GUIStart.HelpPopup : Aides Pop-up
+GUIStart.TouchInterface : Interface tactile
+
+## GUI SubTools
+GUISubTools.erase : Masquer
+GUISubTools.eraseRedo : Retirer
+GUISubTools.eraseCancel : Annuler
+GUISubTools.eraseCancelRedo : Refaire
+GUISubTools.eraseReinit : Réinitialiser
+GUISubTools.grass : Ajouter
+GUISubTools.grassRedo : Enlever
+GUISubTools.grassMaterial : Matières
+GUISubTools.grassCancel : Annuler
+GUISubTools.grassCancelRedo : Refaire
+GUISubTools.grassReinit : Réinitialiser
+GUISubTools.lightMenu : Eclairage
+GUISubTools.cfaible : C Faible
+GUISubTools.cmoyen : C Moyen
+GUISubTools.mfaible : M Faible
+GUISubTools.mforte : M Forte
+GUISubTools.sfaible : S Faible
+GUISubTools.cforte : S Forte
+GUISubTools.zero : Zero
+GUISubTools.eraseHelp : Mettre au 1er plan
+GUISubTools.eraseRedoHelp : Remettre au 2ème plan
+GUISubTools.grassHelp : Ajouter
+GUISubTools.grassRedoHelp : Retirer
+
+## GUI Menu Interaction
+GUIMenuInteraction.Options : Options
+GUIMenuInteraction.NewObject : Nouveau
+GUIMenuInteraction.Lock : Verrouiller
+GUIMenuInteraction.UnLock : Déverrouiller
+GUIMenuInteraction.Configure : Configurer
+GUIMenuInteraction.Replace : Remplacer
+GUIMenuInteraction.Copy : Copier
+GUIMenuInteraction.Refocus : Réinitialiser
+GUIMenuInteraction.Delete : Supprimer
+
+## GUI Menu Right
+GUIMenuRight.ConnectionFailed : Problème de connexion, désactivation annulée
+GUIMenuRight.QuitWithoutSave : Voulez-vous sauvegarder ?
+GUIMenuRight.CloseSceneToOpen : Fermer cette conception et ouvrir
+GUIMenuRight.AskAutoSave1 : Oneshot3D a récupéré une conception non
+GUIMenuRight.AskAutoSave2 : sauvegardée, voulez-vous la charger ?
+GUIMenuRight.OK : OK
+GUIMenuRight.Yes : Oui
+GUIMenuRight.No : Non
+GUIMenuRight.Save : Sauvegarder
+GUIMenuRight.Inclinaison : Inclinaison
+GUIMenuRight.Echelle : Echelle
+GUIMenuRight.GeneralEchelle : Echelle générale
+GUIMenuRight.Rotation : Rotation
+GUIMenuRight.Hauteur : Hauteur
+GUIMenuRight.Perspective : Perspective
+GUIMenuRight.degres :°
+GUIMenuRight.cancel : Annuler
+GUIMenuRight.redo : Refaire
+GUIMenuRight.reset : Réinitialiser
+GUIMenuRight.grid : Grille
+GUIMenuRight.noReflection : Pas de réflexion
+GUIMenuRight.tauxReflection : Taux réflexion
+GUIMenuRight.reflection : Réflexion
+GUIMenuRight.shadowIntensity : Intensité ombre
+GUIMenuRight.reflectionIntensity : Intensité
+GUIMenuRight.shadowBlur : Flou ombre
+GUIMenuRight.lightHour : Heure
+GUIMenuRight.lightOrientation : Orientation
+GUIMenuRight.lightIntensity : Luminosité
+GUIMenuRight.light : Eclairage
+GUIMenuRight.ClientFolderAsk : Afficher les conceptions sauvegardées ?
+GUIMenuRight.newAssemblyAsk : Voulez-vous sauvegarder ?
+GUIMenuRight.newPhotoAsk : Changer de photo ?
+GUIMenuRight.DeactivateLic : Désactiver la licence ?
+GUIMenuRight.ChangeLanguage : ONESHOT 3D va redémarrer. Voulez-vous sauvegarder?
+GUIMenuRight.GroundConfiguration : 3D
+GUIMenuRight.MoreAdjustment : Plus de réglages
+GUIMenuRight.Atmosphere : Ambiance
+GUIMenuRight.Shadow : Ombres
+GUIMenuRight.Blur : Flou
+GUIMenuRight.ReflectionDeActivate : Désactiver réflexion
+GUIMenuRight.ReflectionActivate : Activer réflexion
+GUIMenuRight.Preset : Preset
+GUIMenuRight.improvements : Retouches
+GUIMenuRight.Eraser : Masqueur
+GUIMenuRight.Grass : Sol
+GUIMenuRight.Project : Conceptions
+GUIMenuRight.Folders : Sauvegardes
+GUIMenuRight.newProject : Nouveau
+GUIMenuRight.changePhoto : Changer Photo
+GUIMenuRight.saveProject : Sauver / Charger
+GUIMenuRight.loadProject : Charger
+GUIMenuRight.saveImage : Sauver image
+GUIMenuRight.loadImage : Envoyer image
+GUIMenuRight.Plugins : Plugins
+GUIMenuRight.Software : Options
+GUIMenuRight.ContactUs : Contactez-nous
+GUIMenuRight.Deactivate : Désactivation
+GUIMenuRight.Language : Langues
+GUIMenuRight.Quit : Quitter
+GUIMenuRight.Parameters : Paramètres
+GUIMenuRight.ChangeLanguageConfirmation : Veuillez redémarrer ONESHOT 3D
+GUIMenuRight.Avatar : Personnage
+GUIMenuRight.MoveAvatar : Déplacer personnage
+GUIMenuRight.DisplayAvatar : Echelle
+GUIMenuRight.HideAvatar : Cacher personnage
+GUIMenuRight.Exports : Exports
+GUIMenuRight.apropos : A propos
+GUIMenuRight.Historic : Mise à jour
+GUIMenuRight.ExportProject : Exporter
+GUIMenuRight.SendProject : Envoyer
+GUIMenuRight.North : N
+GUIMenuRight.South : S
+GUIMenuRight.East : E
+GUIMenuRight.West : O
+GUIMenuRight.Card : cardinalité
+GUIMenuRight.Roulis : Roulis
+GUIMenuRight.Reset : Reinitialiser
+GUIMenuRight.BGImage : Photo
+GUIMenuRight.TakePhoto : Prendre
+GUIMenuRight.LoadImage : Charger
+GUIMenuRight.Phototech : Oneshot3D
+GUIMenuRight.Assembly : Image
+
+## Light Presets
+LightPresets.Inside : Intérieur
+LightPresets.LightingOutdoor : Extérieur ensoleillé
+LightPresets.CloudyOutdoor : Extérieur nuageux
+LightPresets.Night : Exterieur nuit
+LightPresets.NightMode : Mode Nuit
+LightPresets.DayMode : Mode Jour
+
+## GUI Menu Left
+GUIMenuLeft.Add : Ajouter
+GUIMenuLeft.Select : Sélectionner
+GUIMenuLeft.Unique : Unique
+GUIMenuLeft.All : Tous
+GUIMenuLeft.Several : Plusieurs
+GUIMenuLeft.WarningiPhone2Objects : Limite d'objets atteinte
+GUIMenuLeft.MultipleSelect : Sélection multiple
+GUIMenuLeft.Active : Active
+
+## GUI Menu Configuration
+GUIMenuConfiguration.Materials : Matières
+GUIMenuConfiguration.SpecialFunction : Fonctions
+GUIMenuConfiguration.conf : Configuration
+
+##Pool Resizer UI
+PoolResizerUI.LowWall : Muret
+PoolResizerUI.Plage : Plage
+PoolResizerUI.Muret : Muret
+PoolResizerUI.Margelle : Margelle
+PoolResizerUI.FlecheBleue : Flèche bleue
+PoolResizerUI.FlecheRouge : Flèche rouge
+PoolResizerUI.FlecheVerte : Flèche verte
+PoolResizerUI.FlecheJaune : Flèche jaune
+PoolResizerUI.Rotation : Rotation
+PoolResizerUI.Taille : Taille
+PoolResizerUI.MuretTaille : Muret
+PoolResizerUI.Couleur : Couleur
+
+##Help Panel
+HelpPanel.TouchHere : Toucher ici pour valider
+HelpPanel.TouchHerePC : Cliquer ici pour valider
+HelpPanel.configurateur3D : Oneshot 3D Revolution
+HelpPanel.os3dExpress : Oneshot 3D Express
+HelpPanel.idclient : Licence  
+HelpPanel.designedPointcube : Only by Pointcube
+HelpPanel.use : Usage
+HelpPanel.fonction : Fonctions
+HelpPanel.trace : Tracer
+HelpPanel.zoom : Zoomer
+HelpPanel.close : Fermer
+HelpPanel.substract : Tracer une forme pour soustraire au premier plan
+HelpPanel.textBox : Choisissez le type d'aide
+HelpPanel.video : Vidéo
+HelpPanel.pdf : Manuel d'utilisation
+HelpPanel.contactUs : Contactez nous
+
+##WaterMark
+Screenshot.Contract : Photomontage non contractuel
+Screenshot.MadeWithOS3D : Réalisé avec Oneshot 3D
+Screenshot.MadeWithOS3DExpress : Réalisé avec Oneshot 3D Express
+
+##Explorer V2
+ExplorerV2.Home : Accueil
+ExplorerV2.Folders : Répertoire
+ExplorerV2.Projects : Conception
+ExplorerV2.Loading : Chargements...
+ExplorerV2.NewClient : Répertoire
+ExplorerV2.InvalidName : Nom invalide
+ExplorerV2.Delete : Supprimer
+ExplorerV2.NewAssembly : Nouveau
+ExplorerV2.OK : OK
+ExplorerV2.SelectProjectList : Sélectionnez d'abord un projet dans la liste
+ExplorerV2.NewAssemblyBold : NOUVEAU PROJET
+ExplorerV2.takePicture : Prendre photo
+ExplorerV2.loadPicture : Charger photo
+ExplorerV2.examplePicture : Exemple Oneshot3D
+ExplorerV2.createdThe : Créé le
+ExplorerV2.Comments : Commentaires
+ExplorerV2.LoadProject : Charger conception
+ExplorerV2.LoadWithoutObjects : Charger sans objets
+ExplorerV2.SendProject : Exporter conception
+ExplorerV2.SendImage : Envoyer image
+ExplorerV2.Watermark : Conception OneShot3D Revolution
+ExplorerV2.BodyMail : Conception OneShot3D Revolution
+ExplorerV2.ImportProject : Importer projet
+ExplorerV2.ExportProject : Exporter projet
+ExplorerV2.Rename : Renommer
+ExplorerV2.Mounting : Conception
+ExplorerV2.New : Nouveau répertoire
+ExplorerV2.NewName : Nouveau nom
+
+##LicenceNotification
+LicenceNotification.Infinite : LICENCE ILLIMITE
+LicenceNotification.Sentence : Licence  -
+LicenceNotification.Day : jours
+LicenceNotification.Renew : Renouveller
+LicenceNotification.Licence : Licence
+LicenceNotification.Mailing : Contactez-moi pour un renouvellement de licence
+
+
+## Module name
+liner : Revêtement 
+coque : Coque
+plage : Plage
+margelle : Margelle
+jupe : Jupe
+échelle : Echelle
+volet : Volet
+caillebotis : Caillebotis
+poutre : Poutre
+lames : Lames
+plantes : Plantes
+conteneur : Conteneur
+extension : Extension
+water : Eau 
+affiches : Poster
+muret : Muret
+blades : Lames
+frame : Structure
+screen : Stores
+screenUp : Voile
+roof : Toit
+OutsideC : Revêtement extérieur
+beton : Béton
+color : Couleur
+colors : Couleurs
+fleur : Fleur
+table : Table
+tabourets : Tabourets
+tissu : Tissu
+bois : Bois
+coussin : Coussin
+coussins : Coussins
+textile : Textile
+nappe : Nappe
+bois2 : Bois2
+chaises : Chaises
+chaisesbois : Chaises bois
+chaisesbois2 : Chaises bois2
+chaisestextile : Chaises textile
+pieds : Pieds
+pot : Pot
+roses : roses
+pivoines : pivoines
+arums : arums
+anemones : anémones
+pierre : pierre
+fer : fer
+metal : métal
+color1 : couleur 1
+color2 : couleur 2
+color3 : couleur 3
+color4 : couleur 4
+geranium : géraniums
+geranium2 : géraniums 2
+material : matière
+pelargonium : pélargoniums
+pelargonium2 : pélargoniums 2 
+colet_C : Volet
+sol : Sol
+paroi : Paroi
+
+##Function name
+Cacher : Cacher
+Afficher : Afficher
+canard : Canard
+ReglagePlage : Réglage
+AllumerLampes : Allumer Lampes
+EteindreLampes : Eteindre Lampes
+hors-sol : Passer en hors-sol
+semi-enterre : Passer en semi-enterré 
+enterre : Passer en enterré
+ReglageVolet : Réglage Volet
+ReglageArbis : Réglage Abri
+PositionEscalier : Position Escalier
+struct : Structure
+ReglageOuverture : Réglage ouverture
+Allumer : Allumer
+Eteindre : Eteindre
+
+## Config name
+language.fr : Français
+language.en : English
+language.de : Deutsch
+
+## Fenêtre de dialogue - choix de chemin pour sauvegarde / envoi email
+Dialog.ImageFiles : Fichiers d'images
+Dialog.MontageFiles : Fichiers de conceptions ONESHOT 3D
+Dialog.MontageFilesExpress : Fichiers de conceptions Oneshot 3D Express
+Dialog.AllFiles : Tous les fichiers
+Dialog.ChooseImage : Choisir une image
+Dialog.ChooseMontage : Choisir une conception ONESHOT 3D
+Dialog.ChooseMontageExpress : Choisir un projet ONESHOT 3D
+Dialog.SaveImageFile : Exporter une image
+Dialog.SaveMontageFile : Exporter un conception ONESHOT 3D
+Dialog.SaveMontageFileExpress : Exporter un projet ONESHOT 3D Express
+Dialog.ImportMontage : Importer un conception ONESHOT 3D
+Dialog.ImportMontageExpress : Importer un projet ONESHOT 3D Express
+Dialog.ImportImage : Charger une image
+Dialog.MailTitle : Conception ONESHOT 3D
+
+## Fichiers
+Files.Autosave : Projet_ONESHOT_3D_Sauvegarde_auto
+Files.TmpName : Projet_ONESHOT_3D
+
+## Mode 2D
+mode2D.mode2D : Mode Plan
+mode2D.mode3D : Mode 3D
+Mode2D.PlanA4 : Plan
+Mode2D.LoadPlan : Importer
+Mode2D.LoadNewPlan : Changer de plan
+Mode2D.CadastreTxt : Visiter le site du cadastre pour générer un plan
+Mode2D.Scale : Echelle
+Mode2D.OK : OK
+Mode2D.Cancel : Annuler
+Mode2D.MapParams : Importer
+Mode2D.Object : Objet
+Mode2D.Image : Image
+Mode2D.Measure : Mesurer
+Mode2D.Delete : Supprimer
+Mode2D.Save : Sauver
+Mode2D.LineLenUnit : m
+Mode2D.WarningA4 : Attention, l'image chargée n'est pas au format A4, donc l'échelle des objets ne sera peut-être pas correcte.
+Mode2D.WarningObj : La disposition des objets a été modifiée après que le plan ait été fait, il est peut-être nécessaire de le refaire.
+Mode2D.Manipulate : Manipuler
+Mode2D.Recenter : Recentrer
+
+## Old Mode 2D
+Mode2D.Positioning : Positionner
+Mode2D.Objects : Objets
+
+## Montage
+Montage.NoSave : Pas de sauvegarde
+Montage.BackClient : Retour
+Montage.NewClient : Nouveau client
+Montage.NoClient : Pas de clients
+Montage.Save : Sauver
+Montage.Name : Nom de la conception
+Montage.CreatedThe : Créé le
+Montage.Comments : Commentaires
+Montage.Overwrite : Ecraser
+Montage.Yes : Oui
+Montage.Cancel : Annuler
+Montage.Validate : Valider
+Montage.Delete : Supprimer
+Montage.SelectFile : Selectionnez un fichier
+Montage.SelectClient : Selectionnez un dossier
+Montage.Client : Client
+Montage.ChooseClient : Choisir un client
+Montage.CreateClient : Créer un client
+Montage.AddClient : Créer nouveau
+Montage.LoadingObject : Chargement objet
+
+
+##Muret
+Muret.Width : Largeur (mètre)
+Muret.Length : Longueur (mètre)
+Muret.Height : Hauteur (mètre)
+Muret.Resize : Changer la taille
+
+## Pergola
+Pergola.Sizes : Dimensions
+Pergola.Blades : Lames
+Pergola.BladesDir : Direction
+Pergola.BladesChangeDir : Changer sens
+Pergola.Screens : Stores
+Pergola.Feet : Poteaux
+Pergola.DoorProfile : Profils Porte
+Pergola.Module : Module
+Pergola.Add : Ajouter
+Pergola.Remove : Supprimer
+Pergola.Width : Largeur
+Pergola.Length : Longueur
+Pergola.Avance : Avancée
+Pergola.Height : Hauteur
+Pergola.Show : Mettre
+Pergola.Hide : Enlever
+Pergola.Roof : Toit
+Pergola.SpotLight : Spots
+Pergola.NeonLight : Strip LED
+Pergola.Accessories : Accessoires
+Pergola.Side : Coté
+Pergola.Activate : Activer
+Pergola.Deactivate : Désactiver
+Pergola.ApplyToAll : Appliquer à tous
+Pergola.Type : Type
+Pergola.Ilot : Îlot
+Pergola.WallSide : Mural
+Pergola.L : en L
+Pergola.Patio : Patio
+PergolaPlage : Sol de terrasse
+Pergola.right : Droite
+Pergola.left : Gauche
+Pergola.open : Ouvrir
+Pergola.close : Fermer
+Pergola.AllGlass : AllGlass
+Pergola.Claustra : Claustra
+Pergola.Imposte : Imposte
+Pergola.Jardiniere : Jardinière
+Pergola.flower : Fleurs
+Pergola.luminaire : Boule lumineuse
+Pergola.partial : Partiel
+Pergola.full : Entier
+
+## Spa HD config (water & light)
+SpaConfigWater.calm : Arrêter
+SpaConfigWater.bubbling : Remplir
+SpaConfigWater.empty : Vider
+
+SpaConfigLight.off : Eteindre LED
+SpaConfigLight.manual : Allumer LED
+SpaConfigLight.autocycle : Passer en cyclique
+
+## Library Loader
+LibraryLoader.Downloading : Téléchargement des bibliothèques d'objets...
+LibraryLoader.BUnit : octets
+LibraryLoader.KBUnit : Ko
+LibraryLoader.MBUnit : Mo
+LibraryLoader.BpsUnit : octets/s
+LibraryLoader.KBpsUnit : Ko/s
+LibraryLoader.MBpsUnit : Mo/s
+
+## Pool Designer
+PoolDesigner.Edit : Edition
+PoolDesigner.Snap : Magnétisme
+PoolDesigner.Plan : Déplacer/Zoomer
+PoolDesigner.AlignedSnap : Alignement
+PoolDesigner.AngleSnap : Angle
+PoolDesigner.ZoomToPoly : 
+PoolDesigner.RemovePoint : Supprimer
+PoolDesigner.LeftTitle : Tracé
+PoolDesigner.RightTitle : Arrondir
+PoolDesigner.FunctionName : Définir tracé
+PoolDesigner.Image : Plan
+PoolDesigner.Image.Load : Charger
+PoolDesigner.Image.ShowHide : Afficher/Masquer grille
+PoolDesigner.Image.Scale : Echelle
+PoolDesigner.Image.Move : Naviguer
+PoolDesigner.Image.Remove : Supprimer
+PoolDesigner.Cotation : Dimensions
+PoolDesigner.SquareCotation : Dimensions globales
+PoolDesigner.EdgeCotation : Dimension segment
+PoolDesigner.ValidateScale : Valider
+PoolDesigner.Footer : Cliquer pour placer un nouveau point ou sélectionner un point existant.
+PoolDesigner.FooterTablette : Toucher pour placer un nouveau point ou sélectionner un point existant.
+
+## Designer Desjoyaux
+DesignerDesjoyaux.SizePool : Taille piscine
+DesignerDesjoyaux.Size : Taille
+DesignerDesjoyaux.Stairway : Escaliers
+DesignerDesjoyaux.Display : Afficher
+DesignerDesjoyaux.Hide : Cacher
+DesignerDesjoyaux.StairwayPosition : Position
+DesignerDesjoyaux.Bloc : Bloc
+DesignerDesjoyaux.NoSpace : Pas de place
+DesignerDesjoyaux.Return : Retour
+
+## Voiles Ombrages
+ShadeSail.sail : Voile
+ShadeSail.poto : Poteau
+ShadeSail.lineMetric : Mètre linéaire
+ShadeSail.area : Surface voile
+ShadeSail.metric : m²
+
+## Designer d'abris
+DynShelter.Title : Designer
+DynShelter.Conception : Conception
+DynShelter.Styles : Styles
+DynShelter.Couleurs : Couleurs
+DynShelter.AddNext : Ajouter
+DynShelter.AddPrevious : Ajouter
+DynShelter.LimitedMove : Butées
+DynShelter.AdvancedOptions : Options
+DynShelter.Delete : Supprimer
+DynShelter.afficher : Mettre
+DynShelter.cacher : Enlever
+DynShelter.SpotsInterieur : Spots Int.
+DynShelter.SpotsExterieur : Spots Ext.
+DynShelter.SpotAR : Spots Arrière
+DynShelter.SpotAV : Spots Avant
+DynShelter.LimitFront : Butée Avant
+DynShelter.LimitBack : Butée Arrière
+DynShelter.Selecteur : Selecteur
+DynShelter.Ouvrir : Ouvrir
+DynShelter.Fermer : Fermer
+DynShelter.Porte : Porte
+DynShelter.MainLight : Spots
+DynShelter.Move : Placer
+DynShelter.On : Allumer
+DynShelter.Off : Eteindre
+DynShelter.changeWidth : Largeur
+DynShelter.changeHeight : Hauteur
+
+##Designer de Terrasse
+Terrasse.Configurer : Configurer
+Terrasse.Edit : Editer le contour
+Terrasse.Delete : Supprimer point
+Terrasse.Generate : Générer terrasse
+
+## MenuMain
+GUIMenuMain.messError : Caractères spéciaux non autorisés!

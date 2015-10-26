@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\functions\Function_hideObject.cs">
+    <Files>
+      <File FileName="Assets\Scripts\fromLab\GUI Tesv\GUIMenuConfiguration.cs" Line="267" Column="20" />
+      <File FileName="Assets\Scripts\SceneControl.cs" Line="210" Column="5" />
+      <File FileName="Assets\Scripts\fromLab\GUI Tesv\GUIMenuInteraction.cs" Line="126" Column="1" />
+      <File FileName="Assets\Scripts\functions\plageResizer\PoolResizerUI.cs" Line="958" Column="6" />
+      <File FileName="Assets\Scripts\functions\Function_hideObject.cs" Line="65" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
